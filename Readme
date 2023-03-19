@@ -1,47 +1,15 @@
-# Data For The Web
+# ADVANCED CATALOGUE MANAGEMENT SYSTEM
 
-## Admin
-`admin\auth\login.php`
-1. $_SESSION['admin'] = 'true';
-2. $_SESSION['admin_sign_up'] = 'true';
-3. $_SESSION['admin_username'] = $username;
-4. $_SESSION['admin_login'] = 'true';
+## Project scope
 
-`admin\auth\signup.php`
-1. $_SESSION['admin_login'] = 'true';
-2. $_SESSION['admin_sign_up'] = 'true';
-3. $_SESSION['admin_username'] = $Username;
-
-`admin\auth\verify.php`
-1. $_SESSION['login'] = 'true';
-2. $_SESSION['verify'] = 'verified';
+### Client
+<p>Shop page</p>
 
 
-## Client
-`client\user_account\login.php`
-1. $_SESSION['cust_sign_up'] = 'true';
-2. $_SESSION['cust_username'] = $username;
-3. $_SESSION['cust_login'] = 'true';
-4. $_SESSION['status'] = $query['Status'];
+### Admin
+<p>Backend Management</p>
 
-`client\user_account\signup.php`
-1. $_SESSION['cust_login'] = 'true';
-2. $_SESSION['cust_sign_up'] = 'true';
-3. $_SESSION['cust_username'] = $Username;
-
-`client\shop\view.php`
-1. $_SESSION['cartValue'] = $cart_session_value;
-
-
-## NEw Sessions
-1. For status
-
-# ACTIONS
-1. Design media files for dashboard
-2. Design todo for the products
-3. B
-
-<!-- FOR CART ORDER VALUE -->
-$_SESSION['cartValue'] = $cart_session_value;
-
-<!-- CHECKOIUT -->
+OVERVIEW:
+1. Manage products
+2. Managge customers
+3. Manage fellow admin
