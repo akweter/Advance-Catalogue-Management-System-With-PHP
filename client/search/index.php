@@ -16,8 +16,6 @@
         <title>Search | #1 Online Market</title>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <!-- <link rel="stylesheet" href="../../node_modules/bootstrap/bootstrap.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
     </head>
     <body>
         <header class="fixe-top">
@@ -232,7 +230,5 @@
                 </div>
             </footer>
         </div>
-
-        <script src="../../../node_modules/bootstrap.min.js"></script>
     </body>
 </html>

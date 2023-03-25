@@ -20,10 +20,6 @@
 
             // VERIFY HASH PASSWORD IN THE DATABASE
             if (password_verify($cus_input_pass, $passWD)) {
-                # REHASHING PASSWORD FOR USER/
-                // if (password_needs_rehash($passWD, PASSWORD_DEFAULT)) {
-                //     $new_pass_hash = password_hash($cus_input_pass, PASSWORD_DEFAULT);
-                // }
                 $_SESSION['cust_username'] = $cust_username;
                 $_SESSION['status'] = $status;
                 $_SESSION['cust_sign_up'] = 'true';
